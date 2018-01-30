@@ -1,0 +1,123 @@
+.carousel {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 70px;
+}
+.carousel img {
+	width: 100%;
+}
+.header {
+	height: 30px;
+	background-size: cover;
+	margin-bottom: 18px;
+	position: center;
+	text-align: center;
+}
+.header li {
+	display: inline;
+}
+.header a {
+	width: 100%;
+	font-size: 20pt;
+	color: #000;
+	display: inline;
+	text-transform: uppercase;
+	font-family: 'Annie Use Your Telescope', cursive;
+	transition: 0.65s;
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.header a:hover {
+	text-decoration: none;
+	color: #44bd32;
+}
+
+@media screen and (max-width:760px) {
+	.header {
+		height:	300px;
+	}
+	.header {
+		display: inline!important;
+	}
+}
+@media screen and (max-width:760px){
+	.menu {
+		padding: 0;
+		display: none;
+	}
+	.menu {
+		padding: 0;
+		text-align: center;
+	}
+	.hamburger {
+		display: block;
+	}
+}
+.toggle-menu {
+	line-height: 100px;
+	background-color: #fff;
+	font-size: 32pt;
+	text-align: right;
+}
+.hamburger {
+	line-height: 100px;
+	background-color: #000;
+	font-size: 32pt;
+	text-align: right;
+	padding-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+.gallery  img {
+	width: 100%;
+}
+.gallery div {
+	padding: 0;
+}
+.overlay {
+	position: absolute;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #000;
+}
+.image-container:hover .overlay {
+	opacity: 0.7;
+}
+.image-container:hover img {
+	filter: blur(1px);
+}
+.overlay p {
+	position:absolute;
+    text-align: center;
+	color: #fff;
+	font-size: 20pt;
+	top: 50%;
+	left: 0;
+    transform: translate (-50%, -50%);
+	width: 100%;
+}
+.overlay a {
+	color: #FFFFA8;
+	text-decoration: none;
+	padding: 240px;
+}
+.section {
+	height: 50px;
+}
+.section p {
+	font-size: 15pt;
+	font-family: 'Annie Use Your Telescope', cursive;
+	margin-top: 25px;
+	text-align: center;
+}
+
+body  {
+	background: url('img/patern.png');
+}
